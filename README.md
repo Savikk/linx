@@ -10,3 +10,14 @@ grafika
 GLIBC 2.14 (4 steam)
 ##
 1. skrypt wystarczy
+
+Steam cd.
+##
+/usr/bin/steam
+```
+# Don't allow running as root
+#if [ "$(id -u)" == "0" ]; then
+#    show_message --error $"Cannot run as root user"
+#    exit 1
+#fi
+```
