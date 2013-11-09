@@ -21,3 +21,6 @@ Steam cd.
 #    exit 1
 #fi
 ```
+[Jockey-common](http://ubuntu.mirror.cambrium.nl/ubuntu//pool/universe/j/jockey/jockey-common_0.9.7-0ubuntu11_all.deb)
+[python xkit](http://ubuntu.mirror.cambrium.nl/ubuntu//pool/main/x/x-kit/python-xkit_0.5.0_all.deb)
+dpkg -i 
