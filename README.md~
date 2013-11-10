@@ -26,24 +26,3 @@ dpkg -i
 [Jockey-common](http://ubuntu.mirror.cambrium.nl/ubuntu//pool/universe/j/jockey/jockey-common_0.9.7-0ubuntu11_all.deb)
 
 [python xkit](http://ubuntu.mirror.cambrium.nl/ubuntu//pool/main/x/x-kit/python-xkit_0.5.0_all.deb)
-
-
-```
-sudo apt-get update --fix-missing
-
-sudo dpkg --configure -a
-
-sudo apt-get install -f
-
-    $ sudo nano /var/lib/dpkg/status    (you can use vim or gedit instead of nano)
-    Locate the corrupt package, and remove the whole block of information about it and save the file.
-
-sudo fuser -vki /var/lib/dpkg/lock
-
-sudo dpkg --configure -a
-
-sudo rm /var/lib/apt/lists/lock
-
-sudo rm /var/cache/apt/archives/lock
-```
-
