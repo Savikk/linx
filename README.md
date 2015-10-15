@@ -1,6 +1,7 @@
 linx
 ====
 Repo do rzeczy, które uważam za przydatne #kali
+Przyda sie dla osob ktore chca zainstalowac nowe sterowniki od AMD. (Dawno nie sprawdzane)
 
 grafika
 ##
